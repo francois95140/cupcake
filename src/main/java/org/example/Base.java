@@ -1,17 +1,17 @@
 package org.example;
 
 public class Base {
-    private Float price;
+    private Price price;
 
     private Integer number;
 
     private String name;
 
-    public void setPrice(Float price) {
+    public void setPrice(Price price) {
         this.price = price;
     }
 
-    public Float getPrice() {
+    public Price getPrice() {
         return price;
     }
 

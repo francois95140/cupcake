@@ -1,18 +1,18 @@
 package org.example;
 
 public class Topping {
-    private Float price;
+    private Price price;
 
     private Integer number;
 
     private String name;
 
-    public void setPrice(Float price) {
-        this.price = price;
+    public Price getPrice() {
+        return price;
     }
 
-    public Float getPrice() {
-        return price;
+    public void setPrice(Price price) {
+        this.price = price;
     }
 
     public void setNumber(Integer number) {
