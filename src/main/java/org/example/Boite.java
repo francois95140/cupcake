@@ -12,7 +12,7 @@ public class Boite {
     }
 
     
-    public double getPrice(hasOrderedBefore) {
+    public double getPrice() {
         int cupcakeCount = 0;
         double cheapestCupcakePrice = Double.MAX_VALUE;
 
