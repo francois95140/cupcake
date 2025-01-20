@@ -7,6 +7,12 @@ public class Base {
 
     private String name;
 
+    public Base(Price price, Integer number, String name) {
+        this.price = price;
+        this.number = number;
+        this.name = name;
+    }
+
     public void setPrice(Price price) {
         this.price = price;
     }
