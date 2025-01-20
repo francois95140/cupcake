@@ -2,6 +2,7 @@ package org.example;
 
 import java.util.ArrayList;
 
+
 public class Boite {
     private ArrayList<Cupcake> cupcakes;
     private boolean hasOrderedBefore;
@@ -12,7 +13,7 @@ public class Boite {
     }
 
     
-    public double getPrice(hasOrderedBefore) {
+    public double getPrice() {
         int cupcakeCount = 0;
         double cheapestCupcakePrice = Double.MAX_VALUE;
 
