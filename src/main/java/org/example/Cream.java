@@ -7,6 +7,12 @@ public class Cream {
 
     private String name;
 
+    public Cream(Price price, Integer number, String name) {
+        this.price = price;
+        this.number = number;
+        this.name = name;
+    }
+
     public Price getPrice() {
         return price;
     }
